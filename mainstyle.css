@@ -29,7 +29,6 @@ a:hover, a:active {border-bottom: 2px solid #2e7120; transition: border .2s;}
 .subtext {font-size: 60%; color: #258212; font-style: italic; padding-left: 5px;}
 .superblock {font-size: 350%; font-weight: 400; text-transform: none;}
 .tinyblock {font-weight: 400; text-transform: none; font-style: italic; margin: 10px 0px 0px 400px;}
-.addon {font-size: 80%;}
 
 .dp {padding: 0px 0px 50px 0px;}
 .button a {color: white; background-color: #2e7120; padding: 2px 8px; border:2px solid #2e7120; }
@@ -90,11 +89,13 @@ header {margin: 0px; padding: 0px;}
 .home {background-image:linear-gradient(rgba(255,255,255,1),rgba(255,255,255,.7)), url(resources/imgs/bg.PNG);}
 /*.menu {background-image:linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.4)), url(resources/imgs/menu.jpg); overflow: scroll;}*/
 .menu {height: 100%; margin: 0px;}
-.split05 {width: 44%; display: inline-block; margin-right: 8%;}
+.top {height: 275px;}
+.split05 {width: 44%; display: inline-table; margin-right: 8%;}
 .split05:last-child {float:right; margin: 0px;}
 .menu th {padding: 0px 5px 0px 0px; border-right: 2px solid #2e7120; text-align: right; width: 100px;}
 .menu td {padding: 0px 0px 0px 5px; text-align: left;}
 .menu table {padding: 0px 0px 65px 0px;}
+.menu table tr td:last-child {display:none; padding: 0px 0px 0px 25px; font-size: 80%; color: #258212; font-style: italic; }
 .menu h2 {font-weight: 400;}
 
 .gallery {padding: 0px; margin:0px 0px 75px 0px; height: 100%; overflow: hidden;}

@@ -9,22 +9,20 @@
         <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <link rel="stylesheet" type="text/css" href="queries.css">
         <title>Ok Lah!</title>
     </head>
     
     <!-- HOME SECTION -->
-    <header class="home clearfix">
-        <nav>
+    <header class="home clearfix" id="top">
+        <nav class="main-nav">
             <ul class="main-menu">
-                <li><a href="index.html"><img class="nav-logo" src="resources/imgs/oklah-logo/nav-green.png"/></a></li>
+                <li><a href="#top"><img class="nav-logo" src="resources/imgs/oklah-logo/nav-green.png"/></a></li>
                 <li><a href="#menu">menu</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#press">press</a></li>
                 <li><a href="#location">location</a></li>
                 <li class="sub-menu button"><a href="#contact">contact</a></li>
-            </ul>
-            <ul class="sub-menu">
-                
             </ul>
         </nav>
             <img class="logo" src="resources/imgs/oklah-logo/full-black.png"/>
@@ -37,120 +35,162 @@
                 <h1>the menu</h1>
                 <p class="dp">Start with a base, then choose two sides, and finally, one main.</p>
                 <div class="split05">
-                    <div>
+                    <div class="top">
                         <h2>base — <span class="lowercase">choose 1</span></h2>
                         <hr>
                         <table>
                             <tr>
                                 <th>Vegan</th>
                                 <td>Herb Salad w/ Mint, Basil, Arugula &amp; Kale</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Classic Tumeric Brown Rice &amp; Quinoa</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>1/2 Salad &amp; 1/2 Rice &amp; Quinoa</td>
+                                <td></td>
                             </tr>
                         </table>
                     </div>
                     <div>
-                        <h2>market sides — <span class="lowercase">choose 2</span></h2>
+                        <h2>sides — <span class="lowercase">choose 2</span></h2>
                         <hr>
                          <table>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Soup of the Day</td>
+                                <td></td>
                              </tr>
                             <tr>
                                 <th>Vegan</th>
                                 <td>Seasonal Noodle Salad</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Silken Tofu &amp; Preserved Duck Egg Salad</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Seasonal Noodle Salad</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Spicy Smashed Cucumbers</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Vegetable Slaw</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Kale Salad</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Papaya Slaw</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Seasonal Vegetables</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Sweet Potatoes</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Roasted Herb Potatoes</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <th>Vegetarian</th>
-                                <td>Charred Avocado w/ Greek Yogurt &amp; Sesame Seeds <span class="subtext addon">Add $1.00</span></td>
+                                <td>Charred Avocado w/ Greek Yogurt &amp; Sesame Seeds</td>
+                                <td>+$1</td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Silken Tofu &amp; Preserved Duck Egg Salad</td>
+                                <td></td>
                             </tr>
                         </table>
                     </div>
                 </div>
                 <div class="split05">
-                    <div>
+                    <div class="top">
                         <h2>mains — <span class="lowercase">choose 1</span></h2>
                         <hr>
                          <table>
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>Roasted Chicken</td>
+                                <td></td>
                              </tr>
                             <tr>
                                 <td>&nbsp;</td>
-                                <td>Marinated Grilled Steak</td>
-                            </tr>
-                            <tr>
-                                <td>&nbsp;</td>
                                 <td>Grilled Salmon</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
-                                <td>Daily Special<span class="subtext addon">Limited Quantities, Add $1.00</span></td>
+                                <td>Grilled Steak</td>
+                                <td>+$1</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Daily Special</td>
+                                <td>+$1</td>
                             </tr>
                             <tr>
                                 <th>Vegetarian</th>
                                 <td>Two extra sides</td>
+                                <td></td>
                             </tr>
                         </table>
                     </div>
                     <div>
-                        <h2>add ons — <span class="lowercase">optional</span></h2>
+                        
+                        <h2>add-ons</h2>
                         <hr>
-                        <ul>
-                            <li>Extra Side<span class="subtext addon">Add $3.00</span></li>
-                            <li>Extra Main<span class="subtext addon">Add $4.00</span></li>
-                            <li>Water<span class="subtext addon">Add $1.00</span></li>
-                            <li>Natural Sodas<span class="subtext addon">Add $2.00</span></li>
-                            <li>Fountain Drinks<span class="subtext addon">Add $3.00</span></li>
-                       </ul>
+                        <table>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Extra Side</td>
+                                <td>+$3</td>
+                             </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Extra Main</td>
+                                <td>+$4</td>
+                            </tr>
+                            <tr>
+                                <th>Drinks</th>
+                                <td>Fountain Drinks</td>
+                                <td>+$3</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Natural Sodas</td>
+                                <td>+$2</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Water</td>
+                                <td>+$1</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -189,12 +229,12 @@
                     <figure class="split05">
                         <img src="resources/imgs/family/neil.jpg" alt="neil">
                         <h4>Neil Syham</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies integer. Libero enim sed faucibus turpis. Aliquam id diam maecenas ultricies mi. Amet risus nullam eget felis eget nunc.</p>
+                        <p>Neil began his restaurant career at the age of 26, working in fine dining and catering operations and earned his way through the ranks and eventually opened his first restaurant in 2012. Neil’s restaurants have received rave reviews and has been written up in “The New York Times”, “New York Magazine”, “EATER” and many other publications. Neil has won award of Top Chef Philippines and the NY Vendy award winner.</p>
                     </figure>
                     <figure class="split05 clearfix">
                         <img src="resources/imgs/family/carson.jpg" alt="carson">
                         <h4>Carson Yiu</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies integer. Libero enim sed faucibus turpis. Aliquam id diam maecenas ultricies mi. Amet risus nullam eget felis eget nunc.</p>
+                        <p>Carson began his restaurant career at the age of 18, curating numerous restaurant positions including bartending. After spending two yearsrunning a self-starter pop-up selling Taiwanese shaved ice, he became a Food and Beverage Director. He went on to open Outer Borough, a Taiwanese food pop up around NYC. He has been featured in Time Out NY, NY Times, Buzzfeed, Food Network, Fung Bros., and The Daily News.</p>
                     </figure>
                 </div>
                 <div class="button"><a href="#contact">Join the Team</a></div>
@@ -239,7 +279,7 @@
         <section class="location" id="location">
             <div class="center">
                 <h1>hidden jewel</h1>
-                <p class="dp">Stowed away on the second floor of Queens Crossing, the location thirsts for people to explore the essence of Flushing, NY.</p>
+                <p class="dp">Stowed away on the second floor of Queens Crossing, the location thirsts for people to explore the essence of New Flushing.</p>
                 <ul class="transit">
                     <li>Nearby:</li>
                     <li>LIRR</li>
@@ -348,7 +388,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="mainscripts.js"></script>
-    <script src="waypoints.js"></script>
-    <script src="scroll.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
 </html>

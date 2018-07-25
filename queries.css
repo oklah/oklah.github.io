@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1200px) {
+    body {font-size: 18px;}
+    
+    .family {width: 80%;}
+    .about .img-gallery {width: 80%; transform: translate(11.5%,0);}
+    .superblock {font-size: 300%;}
+    .row figure:first-child p {width: 80%; transform: translate(11.5%,0);}
+}
+
+@media only screen and (max-width: 1023px) {
+    nav {padding: 25px 30px;}
+
+    .ftlogo {width: 80px; margin: 2px 30px 0px 0px;}
+    .c-c {padding-left: 45px;}
+    .c-c div:first-child {margin-right: 30px;}
+    
+    .menu .split05 {width: auto;}
+    .menu .split05:last-child {float: none;}
+    
+    footer {font-size: 80%;}
+}
+
+@media only screen and (max-width: 767px) {
+    .center {width: 100%;}
+    .main-nav {display:none;}
+    
+}
