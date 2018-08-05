@@ -18,10 +18,43 @@
     .menu .split05:last-child {float: none;}
     
     footer {font-size: 80%;}
+    
+    
+
+    h1 {font-size: 175%;}
+    h2 {font-size: 125%;}
+    h3 {font-size: 110%;}
 }
 
 @media only screen and (max-width: 767px) {
-    .center {width: 100%;}
-    .main-nav {display:none;}
+    .center {width: 100%;
+    display: block;
+    margin-left: auto;
+    }
     
+    .logo {width: 200px;}
+    .button a:hover {color: #2e7120; background-color:#ffffff; padding: 2px 8px; transition: border .2s, color.2s, background-color .2s;}
+    .about .button a {padding: 15px;}
+
+    nav ul {
+        display: block;
+        margin-left: auto;
+    }
+    
+    .main-nav li {display: block;}
+    .main-nav {float: left;}
+    .main-menu {width: 100%; background-color: #ffffff;}
+    
+    nav ul li {display: block;}
+    nav {height: 65px;}
+    
+    .nav-menu {display: block;}
+    
+    .split05 {width: 100%; padding-bottom: 25px;}
+    
+    footer {padding: 25px;}
+    footer div {display: block; padding: 5px 0px;}
+    .connect li a:hover, a:active {border-bottom: 1.5px solid #ffffff; transition: border .2s;}
+    .c-c {border-left: 2px solid transparent; float: none; padding-left: 0px;}
+    .c-c div:first-child {margin-right: 50px;}
 }

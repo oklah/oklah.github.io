@@ -62,19 +62,19 @@ $(document).ready(function() {
     
     
     /* Mobile Nav */
-    $('.js--nav-icon').click(function() {
-        var nav = $('.js--main-nav');
-        var icon = $('.js--nav-icon i');
+    $('.nav-menu').click(function() {
+        var nav = $('.main-menu');
+        var icon = $('.nav-menu');
         
         nav.slideToggle(500);
         
-        if (icon.hasClass('ion-md-menu')) {
-            icon.addClass('ion-md-close');
-            icon.removeClass('ion-md-menu');
+        if (icon.hasClass('fa-times')) {
+            icon.addClass('fa-bars');
+            icon.removeClass('fa-times');
         }
         else {
-            icon.addClass('ion-md-menu');
-            icon.removeClass('ion-md-close');
+            icon.addClass('fa-times');
+            icon.removeClass('fa-bars');
         }
 
     });
