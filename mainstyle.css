@@ -31,7 +31,8 @@ a:hover, a:active {border-bottom: 2px solid #2e7120; transition: border .2s;}
 .tinyblock {font-weight: 400; text-transform: none; font-style: italic; float: right; padding-top: .5em;}
 
 .dp {padding: 0px 0px 50px 0px;}
-.button a {color: white; background-color: #2e7120; padding: 2px 8px; border:2px solid #2e7120; }
+.button {text-align: center;}
+.button a {color: white; background-color: #2e7120; padding: 2px 8px; border:2px solid #2e7120;}
 .button a:hover {color: #2e7120; background-color: transparent; padding: 2px 8px; transition: border .2s, color.2s, background-color .2s;}
 
 .clearfix{zoom:1px}
